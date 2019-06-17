@@ -29,9 +29,6 @@ public class SelectionSort {
 
 	public static void main(String[] agrs) {
 		new SelectionSort().exec();
-		int rest = 237;
-		rest %= 20;
-		System.out.println(rest);
 	}
 
 }
