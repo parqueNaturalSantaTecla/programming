@@ -13,7 +13,7 @@ public class Serie {
 //		return (number + 1) * MAX; // la tabla del 9
 	}
 
-	public void exec() {
+	void exec() {
 		for (int i = 0; i < MAX; i++) {
 			System.out.println(condition(i));
 		}

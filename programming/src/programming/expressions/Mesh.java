@@ -33,7 +33,7 @@ public class Mesh {
 		
 	}
 
-	public void exec() {
+	void exec() {
 		System.out.print(" ");
 		for (int j = 0; j < MAX; j++) {
 			System.out.print(j % 10);

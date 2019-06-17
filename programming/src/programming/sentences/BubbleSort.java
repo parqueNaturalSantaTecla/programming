@@ -31,5 +31,5 @@ public class BubbleSort {
 	public static void main(String[] agrs) {
 		new BubbleSort().exec();
 	}
-	
+
 }
