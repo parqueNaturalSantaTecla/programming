@@ -3,7 +3,9 @@ package programming.sentences;
 public class Antipodes {
 
 	void exec() {
-		int latitudeGrades = 40;
+		int latitudeGrades = -40;
+		int longitudeGrades = -23;
+		
 		int latitudeGradesAbs;
 		char latitudeCardinalPoint;
 		if (latitudeGrades < 0) {
@@ -13,7 +15,6 @@ public class Antipodes {
 			latitudeGradesAbs = latitudeGrades;
 			latitudeCardinalPoint = 'N';
 		}
-		int longitudeGrades = 23;
 		int longitudeGradesAbs;
 		char longitudeCardinalPoint;
 		if (longitudeGrades < 0) {
