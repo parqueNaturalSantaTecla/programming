@@ -1,4 +1,4 @@
-package classes;
+package programming.classes;
 
 public class Fraction {
 
